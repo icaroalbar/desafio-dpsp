@@ -1,0 +1,6 @@
+oportunidade.md
+desafio.md
+__pycache__/
+*.pyc
+.venv/
+*.db

@@ -1,0 +1,171 @@
+id_participante,cpf,nome,email,data_nascimento,orgao_lotacao,cargo,data_admissao
+P0143,000.000.143-93,Ernesto Cavalcanti Dias,ernesto.cavalcanti.dias@edepe.sp.gov.br,1976-10-28,Núcleo de Habitação e Urbanismo,Defensor Público,2017-10-31
+P0108,000.000.108-49,Gustavo Martins Nascimento,gustavo.martins.nascimento@edepe.sp.gov.br,1981-04-11,Núcleo de Cidadania e Direitos Humanos,Assistente Jurídico,2019-04-27
+P0095,000.000.095-85,Helena Rodrigues Oliveira,helena.rodrigues.oliveira@edepe.sp.gov.br,2000-12-24,Núcleo de Cidadania e Direitos Humanos,Assistente Jurídico,2021-10-06
+P0070,000.000.070-96,José Martins Martins,jose.martins.martins@edepe.sp.gov.br,1979-08-03,,Oficial de Defensoria,2018-10-22
+P0026,000.000.026-31,Ernesto,ernesto.rocha.alves@edepe.sp.gov.br,1981-11-21,Unidade de Atendimento - Sede,Analista de Dados,2019-10-02
+P0017,000.000.017-75,Diego Almeida Pereira,diego.almeida.pereira@edepe.sp.gov.br,1992-02-20,Unidade de Atendimento - Santos,Defensor Público,2017-06-17
+P0055,000.000.055-56,Isabela Souza Lima,,1971-10-16,Assessoria de Tecnologia da Informação,Técnico Administrativo,2020-08-06
+P0127,000.000.127-32,Tatiane Souza Moreira,tatiane.souza.moreira@edepe.sp.gov.br,1991-02-08,Unidade de Atendimento - Sede,Oficial de Defensoria,2021-03-28
+P0119-DUP,000.000.119-80,  Karina Almeida Costa  ,karina.almeida.costa@edepe.sp.gov.br,1973-05-14,Unidade de Atendimento - Campinas,Defensor Público,2024-02-29
+P0037,000.000.037-93,Sérgio Santos Souza,sergio.santos.souza@edepe.sp.gov.br,1994-04-01,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2020-04-20
+P0050,000.000.050-36,Sabrina Lima Cardoso,sabrina.lima.cardoso@edepe.sp.gov.br,2002-03-11,Assessoria de Tecnologia da Informação,Técnico Administrativo,2020-12-02
+P0063,000.000.063-54,Gabriela Cardoso Gomes,gabriela.cardoso.gomes@edepe.sp.gov.br,2002-09-06,Assessoria de Tecnologia da Informação,Analista de Dados,2026-06-21
+P0090,000.000.090-79,Larissa Silva Pinto,larissa.silva.pinto@edepe.sp.gov.br,1972-05-03,Assessoria de Tecnologia da Informação,Técnico Administrativo,2016-07-16
+P0120,000.000.120-70,Ingrid Barbosa Cardoso,,1983-01-24,Núcleo Especializado de Infância e Juventude,Técnico Administrativo,2021-06-18
+P0088,000.000.088-58,Leonardo Souza Nascimento,leonardo.souza.nascimento@edepe.sp.gov.br,1984-09-07,Núcleo de Cidadania e Direitos Humanos,Oficial de Defensoria,2022-05-01
+P0008,000.000.008-47,Eduarda Oliveira Alves,eduarda.oliveira.alves@edepe.sp.gov.br,1998-03-14,Núcleo de Situação Carcerária,Estagiário de Direito,2019-04-25
+P0141,000.000.141-99,William Castro Rodrigues,william.castro.rodrigues@edepe.sp.gov.br,1980-09-17,Núcleo de Situação Carcerária,Analista de Dados,2020-03-28
+P0067,000.000.067-62,Natália Lima Correia,natalia.lima.correia@edepe.sp.gov.br,1984-08-19,Escola da Defensoria Pública - EDEPE,Assessor Jurídico,2017-11-08
+P0001,000.000.001-45,Caio Santos Silva,caio.santos.silva@edepe.sp.gov.br,1980-12-26,Núcleo de Cidadania e Direitos Humanos,Analista de Sistemas,2017-04-19
+P0020,000.000.020-44,Flávia Campos Alves,flavia.campos.alves@edepe.sp.gov.br,1998-10-02,Assessoria de Tecnologia da Informação,Assistente Jurídico,2021-08-01
+P0121,000.000.121-68,Helena Lima Barbosa,helena.lima.barbosa@edepe.sp.gov.br,1973-03-12,Núcleo de Cidadania e Direitos Humanos,Assessor Jurídico,2019-06-09
+P0021,000.000.021-10,Hugo Costa Martins,hugo.costa.martins@edepe.sp.gov.br,2002-05-23,Núcleo Especializado da Mulher,Analista de Sistemas,2026-05-21
+P0037-DUP,000.000.037-93,Sergio Santos Souza,sergio.santos.souza@edepe.sp.gov.br,1994-04-01,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2020-04-20
+P0122,000.000.122-38,Hugo Santos Alves,hugo.santos.alves@edepe.sp.gov.br,1999-01-19,Unidade de Atendimento - Campinas,Assessor Jurídico,2018-03-11
+P0041,000.000.041-71,Daniel Souza Monteiro,daniel.souza.monteiro@edepe.sp.gov.br,1992-07-22,Unidade de Atendimento - Sede,Analista de Sistemas,2016-04-10
+P0066,000.000.066-52,Elaine Correia Freitas,elaine.correia.freitas@edepe.sp.gov.br,1997-12-14,Assessoria de Tecnologia da Informação,Assistente Jurídico,2021-09-26
+P0081,000.000.081-59,Isabela Pereira Almeida,isabela.pereira.almeida@edepe.sp.gov.br,2001-02-16,Unidade de Atendimento - Campinas,Técnico Administrativo,2016-06-10
+P0089,000.000.089-58,Yasmin Moreira Campos,yasmin.moreira.campos@edepe.sp.gov.br,1982-06-25,Escola da Defensoria Pública - EDEPE,Assessor Jurídico,2016-11-01
+P0086,000.000.086-69,Igor,igor.costa.dias@edepe.sp.gov.br,1975-09-23,Núcleo de Situação Carcerária,Defensor Público,2023-11-02
+P0126,000.000.126-21,Aline Nascimento Silva,aline.nascimento.silva@edepe.sp.gov.br,1980-04-08,Núcleo de Situação Carcerária,Defensor Público,2021-01-16
+P0123,000.000.123-49,Elaine Souza Costa,elaine.souza.costa@edepe.sp.gov.br,1996-09-10,Núcleo de Situação Carcerária,Assessor Jurídico,2024-11-06
+P0023,000.000.023-79,Diego Moreira Costa,diego.moreira.costa@edepe.sp.gov.br,1993-10-16,Núcleo Especializado de Infância e Juventude,Estagiário de Direito,2025-12-16
+P0054,000.000.054-57,Renata,renata.souza.dias@edepe.sp.gov.br,1996-02-17,Unidade de Atendimento - Sede,Analista de Sistemas,2024-08-21
+P0046,000.000.046-19,José,jose.araujo.freitas@edepe.sp.gov.br,1970-06-02,Núcleo de Habitação e Urbanismo,Assistente Jurídico,2016-08-23
+P0139,000.000.139-10,Natália Nascimento Dias,natalia.nascimento.dias@edepe.sp.gov.br,1982-09-09,Núcleo Especializado da Mulher,Oficial de Defensoria,2018-05-02
+P0150,000.000.150-17,Carla Araújo Cavalcanti,carla.araujo.cavalcanti@edepe.sp.gov.br,1983-02-28,Assessoria de Tecnologia da Informação,Estagiário de Direito,2024-08-29
+P0130,000.000.130-94,Gustavo Rocha Lima,gustavo.rocha.lima@edepe.sp.gov.br,1987-12-19,Unidade de Atendimento - Sede,Defensor Público,2025-03-14
+P0077,000.000.077-88,Kléber Campos Martins,,2002-04-07,Unidade de Atendimento - Sede,Analista de Dados,2024-12-31
+P0133,000.000.133-44,Kléber Souza Rodrigues,kleber.souza.rodrigues@edepe.sp.gov.br,1994-08-21,Unidade de Atendimento - Campinas,Assessor Jurídico,2024-10-29
+P0058,000.000.058-41,Giovanna Cavalcanti Correia,giovanna.cavalcanti.correia@edepe.sp.gov.br,1981-12-20,Unidade de Atendimento - Campinas,Assistente Jurídico,2023-07-31
+P0136,000.000.136-29,José Santos Teixeira,jose.santos.teixeira@edepe.sp.gov.br,1992-05-10,Núcleo Especializado da Mulher,Assessor Jurídico,2024-04-26
+P0106,000.000.106-49,Felipe Barbosa Almeida,felipe.barbosa.almeida@edepe.sp.gov.br,1999-10-14,Núcleo de Situação Carcerária,Estagiário de Direito,2025-08-12
+P0128-DUP,000.000.128-91,LEONARDO MONTEIRO GOMES,LEONARDO.MONTEIRO.GOMES@EDEPE.SP.GOV.BR,1992-01-22,Unidade de Atendimento - Santos,Oficial de Defensoria,2022-10-21
+P0040,000.000.040-37,João Rodrigues Lima,joao.rodrigues.lima@edepe.sp.gov.br,1972-08-16,Núcleo de Situação Carcerária,Defensor Público,2022-01-13
+P0032,000.000.032-83,Igor Freitas Campos,,1995-11-06,Núcleo de Habitação e Urbanismo,Técnico Administrativo,2025-08-10
+P0007,000.000.007-87,Camila Castro Fernandes,camila.castro.fernandes@edepe.sp.gov.br,1981-11-12,Núcleo Especializado de Infância e Juventude,Oficial de Defensoria,2017-10-19
+P0118-DUP,000.000.118-36,  Bruna Pinto Santos  ,bruna.pinto.santos@edepe.sp.gov.br,1998-01-22,Núcleo de Cidadania e Direitos Humanos,Assessor Jurídico,2016-10-27
+P0073,000.000.073-88,Carla Almeida Rocha,carla.almeida.rocha@edepe.sp.gov.br,1973-04-08,Núcleo de Habitação e Urbanismo,Analista de Dados,2019-05-12
+P0109,000.000.109-78,William Santos Pinto,william.santos.pinto@edepe.sp.gov.br,2000-12-16,Unidade de Atendimento - Campinas,Técnico Administrativo,2019-11-08
+P0100,000.000.100-85,Hugo Dias Pinto,hugo.dias.pinto@edepe.sp.gov.br,1982-01-15,Assessoria de Tecnologia da Informação,Técnico Administrativo,2016-12-10
+P0056,000.000.056-81,Ernesto Santos Fernandes,ernesto.santos.fernandes@edepe.sp.gov.br,1988-03-25,Núcleo de Situação Carcerária,Analista de Sistemas,2020-04-23
+P0116,000.000.116-81,Fábio Almeida Santos,fabio.almeida.santos@edepe.sp.gov.br,1988-09-01,Núcleo de Situação Carcerária,Técnico Administrativo,2023-07-14
+P0027,000.000.027-98,Renata Moreira Pinto,renata.moreira.pinto@edepe.sp.gov.br,1979-01-09,Núcleo Especializado da Mulher,Analista de Dados,2023-05-18
+P0118,000.000.118-36,Bruna Pinto Santos,bruna.pinto.santos@edepe.sp.gov.br,1998-01-22,Núcleo de Cidadania e Direitos Humanos,Assessor Jurídico,2016-10-27
+P0131,000.000.131-51,Fábio Araújo Nascimento,fabio.araujo.nascimento@edepe.sp.gov.br,1975-03-15,Escola da Defensoria Pública - EDEPE,Defensor Público,2025-05-12
+P0085,000.000.085-72,Otávio Nascimento Gomes,otavio.nascimento.gomes@edepe.sp.gov.br,1971-04-21,Escola da Defensoria Pública - EDEPE,Estagiário de Direito,2024-01-26
+P0043,000.000.043-82,Felipe Santos Campos,felipe.santos.campos@edepe.sp.gov.br,1981-01-16,Núcleo de Situação Carcerária,Defensor Público,2016-11-02
+P0135,000.000.135-80,Vanessa Alves Silva,vanessa.alves.silva@edepe.sp.gov.br,1988-04-20,Unidade de Atendimento - Santos,Técnico Administrativo,2017-07-18
+P0083,000.000.083-84,Giovanna Carvalho Campos,giovanna.carvalho.campos@edepe.sp.gov.br,2001-03-14,Núcleo Especializado de Infância e Juventude,Analista de Dados,2025-09-12
+P0142,000.000.142-50,Luciana Gomes Souza,luciana.gomes.souza@edepe.sp.gov.br,2003-05-29,Núcleo de Habitação e Urbanismo,Analista de Dados,2023-08-29
+P0134,000.000.134-13,Gustavo Rocha Santos,,1998-04-06,Núcleo de Situação Carcerária,Técnico Administrativo,2018-07-21
+P0060-DUP,000.000.060-94,Otavio Almeida Silva,otavio.almeida.silva@edepe.sp.gov.br,1978-08-31,Escola da Defensoria Pública - EDEPE,Estagiário de Direito,2021-04-01
+P0146,000.000.146-60,Yasmin Cardoso Barbosa,yasmin.cardoso.barbosa@edepe.sp.gov.br,1999-02-24,Unidade de Atendimento - Santos,Estagiário de Direito,2023-07-11
+P0031,000.000.031-45,Elaine Ribeiro Almeida,elaine.ribeiro.almeida@edepe.sp.gov.br,2000-01-04,Núcleo de Habitação e Urbanismo,Técnico Administrativo,2017-12-19
+P0038,000.000.038-71,Karina Gomes Rocha,karina.gomes.rocha@edepe.sp.gov.br,1979-08-04,,Defensor Público,2018-09-10
+P0079,000.000.079-72,Luciana Moreira Ribeiro,luciana.moreira.ribeiro@edepe.sp.gov.br,1998-02-11,Núcleo de Cidadania e Direitos Humanos,Assessor Jurídico,2024-11-12
+P0064,000.000.064-83,Henrique Carvalho Campos,henrique.carvalho.campos@edepe.sp.gov.br,1978-07-12,Núcleo Especializado da Mulher,Defensor Público,2024-10-12
+P0149,000.000.149-22,Kléber,kleber.teixeira.barbosa@edepe.sp.gov.br,1989-11-26,Unidade de Atendimento - Campinas,Assessor Jurídico,2015-08-26
+P0005,000.000.005-30,Ana Moreira Cavalcanti,ana.moreira.cavalcanti@edepe.sp.gov.br,2001-04-26,Escola da Defensoria Pública - EDEPE,Estagiário de Direito,2021-03-26
+P0047,000.000.047-43,Renata Rodrigues Ribeiro,renata.rodrigues.ribeiro@edepe.sp.gov.br,1975-12-11,Assessoria de Tecnologia da Informação,Assistente Jurídico,2020-06-24
+P0018,000.000.018-97,João Teixeira Costa,,1988-12-08,Núcleo de Situação Carcerária,Assistente Jurídico,2023-08-19
+P0111,000.000.111-56,Marina Lima Almeida,marina.lima.almeida@edepe.sp.gov.br,1978-01-18,Núcleo Especializado da Mulher,Defensor Público,2017-11-02
+P0053,000.000.053-81,Sérgio Barbosa Gomes,sergio.barbosa.gomes@edepe.sp.gov.br,1970-06-08,Unidade de Atendimento - Santos,Assistente Jurídico,2018-05-06
+P0039,000.000.039-43,Eduarda Silva Carvalho,eduarda.silva.carvalho@edepe.sp.gov.br,1990-05-30,Núcleo Especializado da Mulher,Analista de Dados,2025-11-30
+P0110,000.000.110-85,Juliana Rocha Nascimento,juliana.rocha.nascimento@edepe.sp.gov.br,1993-07-14,Núcleo de Situação Carcerária,Assessor Jurídico,2017-04-03
+P0138,000.000.138-27,Aline Ribeiro Pinto,aline.ribeiro.pinto@edepe.sp.gov.br,1973-02-17,Núcleo Especializado da Mulher,Analista de Dados,2022-08-16
+P0119,000.000.119-80,Karina Almeida Costa,karina.almeida.costa@edepe.sp.gov.br,1973-05-14,Unidade de Atendimento - Campinas,Defensor Público,2024-02-29
+P0042,000.000.042-33,Natália Oliveira Castro,natalia.oliveira.castro@edepe.sp.gov.br,1973-01-27,Núcleo de Situação Carcerária,Assistente Jurídico,2020-04-10
+P0101,000.000.101-41,Sabrina Campos Martins,sabrina.campos.martins@edepe.sp.gov.br,2003-08-31,Núcleo de Habitação e Urbanismo,Analista de Dados,2022-07-18
+P0140,000.000.140-54,Ingrid Alves Rocha,ingrid.alves.rocha@edepe.sp.gov.br,1984-11-29,Unidade de Atendimento - Sede,Analista de Dados,2025-03-19
+P0004,000.000.004-79,Helena Teixeira Barbosa,helena.teixeira.barbosa@edepe.sp.gov.br,1988-10-26,Núcleo de Cidadania e Direitos Humanos,Oficial de Defensoria,2021-03-28
+P0150-DUP,000.000.150-17,CARLA ARAÚJO CAVALCANTI,CARLA.ARAUJO.CAVALCANTI@EDEPE.SP.GOV.BR,1983-02-28,Assessoria de Tecnologia da Informação,Estagiário de Direito,2024-08-29
+P0030,000.000.030-17,Elaine,elaine.barbosa.teixeira@edepe.sp.gov.br,1980-04-08,Unidade de Atendimento - Santos,Defensor Público,2022-05-30
+P0014,000.000.014-82,Elaine Rodrigues Freitas,elaine.rodrigues.freitas@edepe.sp.gov.br,2002-03-16,Assessoria de Tecnologia da Informação,Técnico Administrativo,2026-03-13
+P0098-DUP,000.000.098-56,  Marcelo Santos Gomes  ,marcelo.santos.gomes@edepe.sp.gov.br,1998-07-06,Núcleo de Habitação e Urbanismo,Analista de Sistemas,2024-10-07
+P0082,000.000.082-79,Giovanna Gomes Araújo,giovanna.gomes.araujo@edepe.sp.gov.br,1990-11-25,Escola da Defensoria Pública - EDEPE,Defensor Público,2019-08-22
+P0063,000.000.063-54,Gabriela Cardoso Gomes,gabriela.cardoso.gomes@edepe.sp.gov.br,2002-09-06,Assessoria de Tecnologia da Informação,Analista de Dados,2026-06-21
+P0075,000.000.075-23,Kléber Castro Moreira,kleber.castro.moreira@edepe.sp.gov.br,1989-01-26,Núcleo de Cidadania e Direitos Humanos,Analista de Sistemas,2025-06-02
+P0115,000.000.115-97,Elaine Monteiro Teixeira,elaine.monteiro.teixeira@edepe.sp.gov.br,1972-05-28,Unidade de Atendimento - Campinas,Analista de Sistemas,2021-10-25
+P0062-DUP,000.000.062-43,  Bruno Santos Campos  ,bruno.santos.campos@edepe.sp.gov.br,1978-01-04,Núcleo de Situação Carcerária,Assessor Jurídico,2015-11-10
+P0114,000.000.114-71,Daniel Nascimento Castro,daniel.nascimento.castro@edepe.sp.gov.br,1975-02-13,Unidade de Atendimento - Santos,Analista de Dados,2026-01-11
+P0048,000.000.048-66,Diego,diego.lima.costa@edepe.sp.gov.br,1994-05-15,Núcleo Especializado da Mulher,Defensor Público,2021-09-18
+P0021-DUP,000.000.021-10,Hugo Costa Martins,hugo.costa.martins@edepe.sp.gov.br,2002-05-23,Núcleo Especializado da Mulher,Analista de Sistemas,2026-05-21
+P0016,000.000.016-78,Patrícia Pinto Alves,patricia.pinto.alves@edepe.sp.gov.br,1981-10-14,Núcleo de Situação Carcerária,Analista de Dados,2023-12-16
+P0069,000.000.069-48,Sérgio Dias Silva,sergio.dias.silva@edepe.sp.gov.br,1982-11-14,Núcleo de Cidadania e Direitos Humanos,Analista de Dados,2022-03-24
+P0129,000.000.129-95,Giovanna Araújo Araújo,giovanna.araujo.araujo@edepe.sp.gov.br,1974-09-10,Unidade de Atendimento - Campinas,Estagiário de Direito,2024-03-26
+P0002,000.000.002-79,Flávia Pinto Campos,flavia.pinto.campos@edepe.sp.gov.br,1973-11-25,Núcleo de Situação Carcerária,Analista de Dados,2015-09-18
+P0145,000.000.145-93,Igor Pereira Gomes,igor.pereira.gomes@edepe.sp.gov.br,1976-12-04,Unidade de Atendimento - Santos,Oficial de Defensoria,2020-12-11
+P0012,000.000.012-44,Karina Martins Carvalho,karina.martins.carvalho@edepe.sp.gov.br,1998-09-16,Unidade de Atendimento - Sede,Técnico Administrativo,2022-04-10
+P0047,000.000.047-43,Renata Rodrigues Ribeiro,renata.rodrigues.ribeiro@edepe.sp.gov.br,1975-12-11,Assessoria de Tecnologia da Informação,Assistente Jurídico,2020-06-24
+P0072,000.000.072-49,Kléber Almeida Correia,kleber.almeida.correia@edepe.sp.gov.br,1980-01-29,Núcleo de Cidadania e Direitos Humanos,Analista de Sistemas,2015-07-20
+P0066-DUP,000.000.066-52,Elaine Correia Freitas,elaine.correia.freitas@edepe.sp.gov.br,1997-12-14,Assessoria de Tecnologia da Informação,Assistente Jurídico,2021-09-26
+P0105,000.000.105-67,Débora Barbosa Rocha,debora.barbosa.rocha@edepe.sp.gov.br,1970-10-10,Unidade de Atendimento - Santos,Assessor Jurídico,2019-12-21
+P0093,000.000.093-57,Gustavo Nascimento Moreira,gustavo.nascimento.moreira@edepe.sp.gov.br,1977-07-12,Núcleo de Situação Carcerária,Assistente Jurídico,2018-09-03
+P0087,000.000.087-13,Vinícius Monteiro Correia,vinicius.monteiro.correia@edepe.sp.gov.br,1973-10-07,Escola da Defensoria Pública - EDEPE,Analista de Sistemas,2025-05-10
+P0029,000.000.029-80,Yasmin Silva Monteiro,yasmin.silva.monteiro@edepe.sp.gov.br,1980-04-28,Núcleo de Situação Carcerária,Técnico Administrativo,2015-02-28
+P0097,000.000.097-74,Ernesto Fernandes Oliveira,ernesto.fernandes.oliveira@edepe.sp.gov.br,1999-01-18,Assessoria de Tecnologia da Informação,Defensor Público,2024-06-03
+P0019,000.000.019-77,Eduarda,eduarda.cardoso.martins@edepe.sp.gov.br,1981-04-12,Unidade de Atendimento - Sede,Defensor Público,2017-07-27
+P0010,000.000.010-68,Gabriela Carvalho Nascimento,gabriela.carvalho.nascimento@edepe.sp.gov.br,1998-07-08,Assessoria de Tecnologia da Informação,Analista de Sistemas,2023-04-21
+P0060,000.000.060-94,Otávio Almeida Silva,otavio.almeida.silva@edepe.sp.gov.br,1978-08-31,Escola da Defensoria Pública - EDEPE,Estagiário de Direito,2021-04-01
+P0015,000.000.015-92,Felipe Campos Freitas,felipe.campos.freitas@edepe.sp.gov.br,1990-08-01,Unidade de Atendimento - Campinas,Assessor Jurídico,2018-02-17
+P0103,000.000.103-86,Rafael Araújo Nascimento,rafael.araujo.nascimento@edepe.sp.gov.br,2001-06-15,Núcleo Especializado da Mulher,Defensor Público,2019-04-15
+P0044,000.000.044-82,Giovanna Correia Monteiro,giovanna.correia.monteiro@edepe.sp.gov.br,1993-06-14,Assessoria de Tecnologia da Informação,Assessor Jurídico,2019-08-01
+P0112,000.000.112-80,Sabrina Souza Souza,sabrina.souza.souza@edepe.sp.gov.br,1983-02-08,Unidade de Atendimento - Campinas,Oficial de Defensoria,2017-04-20
+P0096,000.000.096-25,Flávia Cardoso Cavalcanti,flavia.cardoso.cavalcanti@edepe.sp.gov.br,1995-05-22,Núcleo Especializado de Infância e Juventude,Estagiário de Direito,2024-08-10
+P0038,000.000.038-71,Karina Gomes Rocha,karina.gomes.rocha@edepe.sp.gov.br,1979-08-04,Escola da Defensoria Pública - EDEPE,Defensor Público,2018-09-10
+P0104,000.000.104-62,Fábio Almeida Pinto,fabio.almeida.pinto@edepe.sp.gov.br,1991-12-01,Unidade de Atendimento - Sede,Técnico Administrativo,2025-09-05
+P0062,000.000.062-43,Bruno Santos Campos,bruno.santos.campos@edepe.sp.gov.br,1978-01-04,Núcleo de Situação Carcerária,Assessor Jurídico,2015-11-10
+P0106,000.000.106-49,Felipe Barbosa Almeida,felipe.barbosa.almeida@edepe.sp.gov.br,1999-10-14,Núcleo de Situação Carcerária,Estagiário de Direito,2025-08-12
+P0125,000.000.125-20,Renata Rocha Martins,renata.rocha.martins@edepe.sp.gov.br,1996-10-29,Núcleo Especializado de Infância e Juventude,Analista de Dados,2022-03-25
+P0033,000.000.033-22,Giovanna Rodrigues Santos,giovanna.rodrigues.santos@edepe.sp.gov.br,1999-07-24,Escola da Defensoria Pública - EDEPE,Estagiário de Direito,2024-07-01
+P0022,000.000.022-48,Gabriela Castro Teixeira,gabriela.castro.teixeira@edepe.sp.gov.br,1998-08-30,Unidade de Atendimento - Sede,Técnico Administrativo,2018-06-06
+P0132,000.000.132-76,Giovanna Souza Rodrigues,giovanna.souza.rodrigues@edepe.sp.gov.br,1986-03-25,Núcleo de Situação Carcerária,Oficial de Defensoria,2024-11-30
+P0035,000.000.035-23,Igor Araújo Cavalcanti,igor.araujo.cavalcanti@edepe.sp.gov.br,1981-02-25,Núcleo de Cidadania e Direitos Humanos,Técnico Administrativo,2025-01-23
+P0003-DUP,000.000.003-39,Bruno Oliveira Rodrigues,bruno.oliveira.rodrigues@edepe.sp.gov.br,1992-09-01,Núcleo de Situação Carcerária,Defensor Público,2019-06-17
+P0144,000.000.144-22,Natália Monteiro Araújo,natalia.monteiro.araujo@edepe.sp.gov.br,1989-10-01,Unidade de Atendimento - Santos,Oficial de Defensoria,2015-05-06
+P0068,000.000.068-58,Marina Gomes Correia,marina.gomes.correia@edepe.sp.gov.br,2000-05-20,Unidade de Atendimento - Campinas,Assessor Jurídico,2024-02-09
+P0137,000.000.137-68,Larissa Rocha Almeida,larissa.rocha.almeida@edepe.sp.gov.br,1994-09-23,Unidade de Atendimento - Campinas,Analista de Dados,2019-04-11
+P0136,000.000.136-29,José Santos Teixeira,jose.santos.teixeira@edepe.sp.gov.br,1992-05-10,Núcleo Especializado da Mulher,Assessor Jurídico,2024-04-26
+P0052,000.000.052-26,Ana Araújo Moreira,ana.araujo.moreira@edepe.sp.gov.br,1998-07-31,Núcleo Especializado da Mulher,Analista de Sistemas,2024-11-28
+P0045,000.000.045-40,Ernesto Barbosa Araújo,ernesto.barbosa.araujo@edepe.sp.gov.br,1981-11-30,Escola da Defensoria Pública - EDEPE,Analista de Sistemas,2021-09-23
+P0107,000.000.107-64,Sérgio Ribeiro Fernandes,sergio.ribeiro.fernandes@edepe.sp.gov.br,2003-06-18,Unidade de Atendimento - Sede,Estagiário de Direito,2022-11-22
+P0084,000.000.084-59,Ana Fernandes Lima,ana.fernandes.lima@edepe.sp.gov.br,1988-10-18,Unidade de Atendimento - Sede,Técnico Administrativo,2025-12-13
+P0044,000.000.044-82,Giovanna Correia Monteiro,giovanna.correia.monteiro@edepe.sp.gov.br,1993-06-14,Assessoria de Tecnologia da Informação,Assessor Jurídico,2019-08-01
+P0024,000.000.024-56,Bruno Santos Freitas,,1983-10-18,Núcleo de Cidadania e Direitos Humanos,Defensor Público,2020-05-27
+P0034,000.000.034-16,Giovanna Martins Castro,giovanna.martins.castro@edepe.sp.gov.br,2000-03-16,Unidade de Atendimento - Santos,Defensor Público,2024-01-12
+P0094,000.000.094-13,Vanessa Santos Monteiro,vanessa.santos.monteiro@edepe.sp.gov.br,1983-12-30,Núcleo de Situação Carcerária,Analista de Dados,2023-11-24
+P0009,000.000.009-94,Helena Oliveira Souza,helena.oliveira.souza@edepe.sp.gov.br,1980-03-22,Núcleo Especializado da Mulher,Assistente Jurídico,2020-03-22
+P0113,000.000.113-70,Ana,ana.monteiro.lima@edepe.sp.gov.br,1991-06-23,Núcleo de Habitação e Urbanismo,Estagiário de Direito,2019-02-19
+P0080,000.000.080-40,Elaine Barbosa Lima,elaine.barbosa.lima@edepe.sp.gov.br,1982-03-10,Assessoria de Tecnologia da Informação,Estagiário de Direito,2016-10-22
+P0011,000.000.011-44,Camila Rodrigues Correia,camila.rodrigues.correia@edepe.sp.gov.br,2001-06-25,Unidade de Atendimento - Santos,Analista de Sistemas,2020-06-28
+P0025,000.000.025-72,Tatiane Oliveira Oliveira,tatiane.oliveira.oliveira@edepe.sp.gov.br,1973-02-07,Unidade de Atendimento - Sede,Analista de Sistemas,2017-11-17
+P0036,000.000.036-45,Isabela Gomes Costa,isabela.gomes.costa@edepe.sp.gov.br,1990-10-02,Núcleo de Cidadania e Direitos Humanos,Assistente Jurídico,2024-12-09
+P0120-DUP,000.000.120-70,  Ingrid Barbosa Cardoso  ,ingrid.barbosa.cardoso@edepe.sp.gov.br,1983-01-24,Núcleo Especializado de Infância e Juventude,Técnico Administrativo,2021-06-18
+P0049,000.000.049-27,Ernesto Santos Campos,ernesto.santos.campos@edepe.sp.gov.br,1981-11-12,Unidade de Atendimento - Santos,Assistente Jurídico,2018-06-27
+P0057,000.000.057-32,Karina Cavalcanti Cavalcanti,karina.cavalcanti.cavalcanti@edepe.sp.gov.br,1988-06-30,Núcleo Especializado de Infância e Juventude,Analista de Sistemas,2022-06-14
+P0091,000.000.091-13,Luciana Teixeira Souza,luciana.teixeira.souza@edepe.sp.gov.br,1981-02-03,Núcleo de Cidadania e Direitos Humanos,Defensor Público,2018-06-02
+P0059,000.000.059-38,Carla Castro Rocha,carla.castro.rocha@edepe.sp.gov.br,1978-12-14,Núcleo de Habitação e Urbanismo,Estagiário de Direito,2021-11-05
+P0074,000.000.074-73,Helena Barbosa Carvalho,helena.barbosa.carvalho@edepe.sp.gov.br,1987-12-05,Núcleo de Cidadania e Direitos Humanos,Analista de Sistemas,2015-02-15
+P0128,000.000.128-91,Leonardo Monteiro Gomes,leonardo.monteiro.gomes@edepe.sp.gov.br,1992-01-22,Unidade de Atendimento - Santos,Oficial de Defensoria,2022-10-21
+P0013,000.000.013-39,Luciana Moreira Souza,,1971-06-10,Assessoria de Tecnologia da Informação,Analista de Dados,2021-01-02
+P0145,000.000.145-93,Igor Pereira Gomes,igor.pereira.gomes@edepe.sp.gov.br,1976-12-04,Unidade de Atendimento - Santos,Oficial de Defensoria,2020-12-11
+P0003,000.000.003-39,Bruno Oliveira Rodrigues,bruno.oliveira.rodrigues@edepe.sp.gov.br,1992-09-01,Núcleo de Situação Carcerária,Defensor Público,2019-06-17
+P0071,000.000.071-75,Ernesto Oliveira Lima,ernesto.oliveira.lima@edepe.sp.gov.br,1999-10-12,Núcleo de Situação Carcerária,Estagiário de Direito,2017-02-04
+P0102,000.000.102-51,Bruno Rocha Castro,bruno.rocha.castro@edepe.sp.gov.br,1978-02-27,Núcleo de Habitação e Urbanismo,Técnico Administrativo,2022-12-16
+P0006,000.000.006-53,João Rodrigues Moreira,joao.rodrigues.moreira@edepe.sp.gov.br,1974-08-02,Unidade de Atendimento - Santos,Analista de Dados,2017-03-03
+P0045,000.000.045-40,Ernesto Barbosa Araújo,ernesto.barbosa.araujo@edepe.sp.gov.br,1981-11-30,Escola da Defensoria Pública - EDEPE,Analista de Sistemas,2021-09-23
+P0076,000.000.076-25,Daniel Alves Almeida,daniel.alves.almeida@edepe.sp.gov.br,1990-06-23,Unidade de Atendimento - Campinas,Oficial de Defensoria,2022-02-12
+P0148,000.000.148-46,Caio Correia Freitas,caio.correia.freitas@edepe.sp.gov.br,1980-03-16,Unidade de Atendimento - Santos,Analista de Dados,2017-03-17
+P0092,000.000.092-95,Patrícia Pereira Rocha,patricia.pereira.rocha@edepe.sp.gov.br,1975-02-18,Núcleo de Situação Carcerária,Técnico Administrativo,2025-06-06
+P0147,000.000.147-72,William Teixeira Barbosa,william.teixeira.barbosa@edepe.sp.gov.br,1994-04-09,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2020-04-07
+P0098,000.000.098-56,Marcelo Santos Gomes,marcelo.santos.gomes@edepe.sp.gov.br,1998-07-06,Núcleo de Habitação e Urbanismo,Analista de Sistemas,2024-10-07
+P0061,000.000.061-54,Elaine Moreira Nascimento,elaine.moreira.nascimento@edepe.sp.gov.br,1998-10-11,Unidade de Atendimento - Sede,Analista de Dados,2022-06-05
+P0028,000.000.028-67,Ingrid Campos Ribeiro,ingrid.campos.ribeiro@edepe.sp.gov.br,1975-06-06,Núcleo de Cidadania e Direitos Humanos,Técnico Administrativo,2016-06-08
+P0124,000.000.124-48,Henrique Martins Barbosa,henrique.martins.barbosa@edepe.sp.gov.br,2001-05-22,Escola da Defensoria Pública - EDEPE,Assessor Jurídico,2026-03-23
+P0099,000.000.099-93,Leonardo Pinto Ribeiro,leonardo.pinto.ribeiro@edepe.sp.gov.br,1982-02-12,Núcleo de Situação Carcerária,Oficial de Defensoria,2025-06-05
+P0051,000.000.051-16,Natália Rocha Nascimento,natalia.rocha.nascimento@edepe.sp.gov.br,1974-02-21,Escola da Defensoria Pública - EDEPE,Assessor Jurídico,2015-12-28
+P0078,000.000.078-70,Karina Pinto Castro,karina.pinto.castro@edepe.sp.gov.br,1990-03-10,Núcleo Especializado da Mulher,Técnico Administrativo,2021-03-21
+P0117,000.000.117-48,Ingrid Freitas Martins,ingrid.freitas.martins@edepe.sp.gov.br,1996-05-26,Escola da Defensoria Pública - EDEPE,Assessor Jurídico,2016-05-08
+P0065,000.000.065-78,Ana Ribeiro Freitas,ana.ribeiro.freitas@edepe.sp.gov.br,,Núcleo de Cidadania e Direitos Humanos,Estagiário de Direito,2024-09-03
