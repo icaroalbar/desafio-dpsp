@@ -351,22 +351,22 @@ def slide_d1_diagnostico(c):
     frame(c)
     y = header(c, "Desafio 1", "Diagnóstico antes do tratamento — medir, não chutar.", 3)
     col_w = (W - 2 * MARGIN - 24) / 2
-    ty = card(c, MARGIN, y, col_w, 150, "Sujeira encontrada (mock controlado)")
+    ty = card(c, MARGIN, y, col_w, 150, "Problemas encontrados nos dados de teste")
     bullets(c, [
-        "Duplicata exata + variante de grafia (acento/caixa/espaço)",
-        ("Nome incompleto ", "e e-mail ausente — bug real: nome passava a validação por engano"),
-        "Status de matrícula grafado de formas diferentes",
-        "Matrícula \"órfã\" — CPF que só existe na API, não no cadastro local",
-        "Conclusão registrada antes do início (dado inconsistente)",
+        "Mesma pessoa cadastrada duas vezes, com o nome escrito de formas diferentes",
+        ("Cadastro incompleto ", "— faltando nome completo ou e-mail, algo que passava despercebido"),
+        "Situação da matrícula escrita de jeitos diferentes (ex: \"Concluído\" e \"concluido\")",
+        "Matrícula de gente que nunca foi cadastrada — sinal de que falta integrar com outro sistema",
+        "Data de conclusão do curso anterior à data em que ele começou",
     ], MARGIN + 12, ty, col_w - 24, size=9, gap=13, leading=11)
     chip_row(c, ["Python", "PostgreSQL 16", "Docker", "FastAPI"], MARGIN, y - 160)
 
     rx = MARGIN + col_w + 24
-    ty2 = card(c, rx, y, col_w, 150, "Arquitetura")
-    steps = ["staging — sem regra, aceita qualquer dado",
-             "SQL comparativo — dedupe, validação, match, pendência",
-             "core — UNIQUE/CHECK/FK travando repetição",
-             ".xlsx + e-mail — motivo por linha, célula destacada"]
+    ty2 = card(c, rx, y, col_w, 150, "Como o dado é tratado")
+    steps = ["1. O dado bruto chega e é aceito do jeito que vier",
+             "2. O sistema confere, limpa duplicidade e valida cada campo",
+             "3. Só entra no cadastro oficial o que está correto",
+             "4. Quem não passou recebe um relatório explicando o motivo"]
     yy = ty2
     for s in steps:
         c.setFillColor(ACCENT_SOFT); c.roundRect(rx + 12, yy - 12, col_w - 24, 20, 4, fill=1, stroke=0)
@@ -384,27 +384,27 @@ def slide_d1_demo(c):
     y = header(c, "Desafio 1 · Ao vivo", "1 planilha → cadastro validado → relatório por e-mail.", 4)
     col_w = (W - 2 * MARGIN - 24) / 2
     numbered_steps(c, [
-        ("Sobe planilha", "(aluno + curso desejado) pro endpoint de matrícula em lote."),
-        ("SQL comparativo roda", "dedupe, valida nome/e-mail, checa curso e matrícula ativa."),
-        ("Linha que não processa", "vira .xlsx com coluna motivo e célula destacada."),
-        ("Relatório chega por e-mail", "Mailpit em dev, SES em produção."),
+        ("Envio da planilha", "uma linha por pessoa, com o curso que ela quer fazer."),
+        ("Conferência automática", "confirma nome, e-mail, curso e se já não está matriculada."),
+        ("Quem não passa", "recebe um relatório em Excel explicando o motivo, célula marcada em vermelho."),
+        ("Relatório chega por e-mail", "automaticamente, sem precisar pedir."),
     ], MARGIN, y, col_w, size=9.5, leading=11, gap=14)
     callout(c, MARGIN, y - 170, col_w,
-            "Regra central: matrícula só é criada se aluno tem nome completo, e-mail e não está já matriculado "
-            "ativo no mesmo curso.")
+            "Regra central: só entra no cadastro quem tem nome completo, e-mail, e ainda não está matriculado "
+            "naquele curso.")
 
     rx = MARGIN + col_w + 24
     terminal(c, rx, y, col_w, 190, [
-        ("# envia a planilha pra API", "cmt"),
-        ("curl -X POST http://localhost:8000/lotes/matriculas \\", "cmd"),
-        ("  -F \"planilha=@planilha_lote_matriculas.csv\" \\", "txt"),
-        ("  -F \"email_destino=pedagogico@edepe.sp.gov.br\"", "txt"),
+        ("# envia a planilha com os novos cadastros", "cmt"),
+        ("$ enviar planilha_lote_matriculas.csv", "cmd"),
         ("", "txt"),
-        ("# resposta: contagem + eventos do lote", "cmt"),
-        ('{"total_alunos_cadastrados_no_banco": 178,', "txt"),
-        ('  "total_matriculas_ativas_no_banco": 315,', "txt"),
-        ('  "eventos_deste_lote": [', "txt"),
-        ('    {"motivo":"ja_matriculado_no_curso","quantidade":7}]}', "txt"),
+        ("resultado:", "cmt"),
+        ("✓ 178 pessoas cadastradas com sucesso", "txt"),
+        ("✓ 315 matrículas confirmadas no total", "txt"),
+        ("! 7 já estavam matriculadas nesse curso", "txt"),
+        ("! 5 informaram um curso que não existe", "txt"),
+        ("", "txt"),
+        ("→ relatório enviado por e-mail", "cmt"),
     ])
     footer(c)
 
@@ -433,9 +433,9 @@ def slide_d2_demo(c):
     y = header(c, "Desafio 2 · Ao vivo", "Cadastro → situação calculada na hora → certificado em PDF.", 6)
     col_w = (W - 2 * MARGIN - 24) / 2
     numbered_steps(c, [
-        ("POST /alunos", "cadastra e já matricula nos 3 cursos obrigatórios."),
-        ("GET /trilha", "situação de cada curso calculada na consulta (sem job em background)."),
-        ("GET /certificado", "bloqueia com 409 se pendente; gera PDF idempotente se concluído."),
+        ("Cadastra o servidor", "e ele já é matriculado automaticamente nos 3 cursos obrigatórios."),
+        ("Consulta o progresso", "a situação de cada curso é calculada na hora, sempre atualizada."),
+        ("Pede o certificado", "só é gerado se os 3 cursos estiverem aprovados — senão avisa o que falta."),
     ], MARGIN, y, col_w, size=9.5, leading=11, gap=16)
     px = pill(c, "APROVADO", MARGIN, y - 130, OK)
     px = pill(c, "EM RECUPERAÇÃO", px, y - 130, WARN)
@@ -443,16 +443,16 @@ def slide_d2_demo(c):
 
     rx = MARGIN + col_w + 24
     terminal(c, rx, y, col_w, 190, [
-        ("# situação da trilha, calculada na hora", "cmt"),
-        ("curl http://localhost:8001/alunos/182/trilha", "cmd"),
+        ("# consulta o progresso do servidor", "cmt"),
+        ("$ ver situação do aluno 182", "cmd"),
         ("", "txt"),
-        ('{"status_global":"concluido",', "txt"),
-        ('  "media_notas_atual": 8.33,', "txt"),
-        ('  "cursos":[{"nota":9.0,"situacao":"aprovado"}]}', "txt"),
+        ("resultado: aprovado nos 3 cursos", "txt"),
+        ("média final: 8,3", "txt"),
         ("", "txt"),
-        ("# emite certificado (PDF, idempotente)", "cmt"),
-        ("curl http://localhost:8001/alunos/182/certificado \\", "cmd"),
-        ("  -o certificado.pdf", "txt"),
+        ("# pede o certificado", "cmt"),
+        ("$ emitir certificado do aluno 182", "cmd"),
+        ("", "txt"),
+        ("→ certificado.pdf gerado", "txt"),
     ])
     footer(c)
 
@@ -466,8 +466,8 @@ def slide_d2_processo(c):
         ["Caso", "Esperado"],
         ["Nota 8,5 na 1ª tentativa", "aprovado"],
         ["Nota 5,2, refaz em 2 dias com 7,5", "aprovado (vale a recuperação)"],
-        ["Nota 5,2, não refaz em 3 dias", "reprovado — nota_abaixo_da_media"],
-        ["60 dias sem concluir", "reprovado — prazo_expirado + fila"],
+        ["Nota 5,2, não refaz em 3 dias", "reprovado — nota abaixo do mínimo"],
+        ["60 dias sem concluir", "reprovado — perdeu o prazo, entra na fila de espera"],
     ]
     table(c, MARGIN + 12, ty, [140, col_w - 140 - 24], rows, size=8.5)
 
