@@ -74,7 +74,6 @@ def strip_accents(txt: str) -> str:
 
 
 def gen_cpf(i: int) -> str:
-    # não é dígito verificador real, só formato plausível de mock
     n = f"{i:09d}"
     return f"{n[0:3]}.{n[3:6]}.{n[6:9]}-{random.randint(10, 99)}"
 
@@ -107,12 +106,9 @@ def build_participantes(n=150):
 def inject_duplicatas(participantes, n_exatas=8, n_variantes=12):
     linhas = list(participantes)
 
-    # duplicata exata: mesma linha reimportada (erro clássico de carga em lote)
     for p in random.sample(participantes, n_exatas):
         linhas.append(dict(p))
 
-    # duplicata "variante": mesma pessoa (mesmo CPF), cadastro feito de novo com
-    # id novo, nome com case/acento diferente, e-mail em maiúsculo, etc.
     for p in random.sample(participantes, n_variantes):
         variante = dict(p)
         variante["id_participante"] = variante["id_participante"] + "-DUP"
@@ -135,7 +131,6 @@ def inject_incompletos(linhas, n=20):
     for row in alvos:
         campo = random.choice(["email", "data_nascimento", "orgao_lotacao", "nome"])
         if campo == "nome":
-            # nome cortado / mal digitado, não vazio (mais realista que dado sumido)
             partes = row["nome"].split()
             row["nome"] = partes[0] if partes else ""
         else:
@@ -163,10 +158,8 @@ def build_matriculas(participantes, n_orfaos=25):
         nota_final = None
         if status_grupo == "concluido":
             data_conclusao = data_inicio + timedelta(days=random.randint(5, 90))
-            # ~10% dos concluídos sem nota lançada (falha de integração real)
             if random.random() > 0.10:
                 nota_final = round(random.uniform(50, 100), 1)
-            # ~5% com data de conclusão ANTES do início (dado sujo de propósito)
             if random.random() < 0.05:
                 data_conclusao = data_inicio - timedelta(days=random.randint(1, 10))
 
@@ -189,9 +182,6 @@ def build_matriculas(participantes, n_orfaos=25):
         for _ in range(random.randint(1, 3)):
             matriculas.append(novo_registro(p["cpf"]))
 
-    # registros "órfãos": cpf que não existe na base de participantes.
-    # simula o caso real de precisar integrar com outro sistema (ex: RH)
-    # que já matriculou gente que ainda não chegou na base local.
     for i in range(n_orfaos):
         cpf_externo = gen_cpf(9000 + i)
         matriculas.append(novo_registro(cpf_externo))
@@ -200,15 +190,10 @@ def build_matriculas(participantes, n_orfaos=25):
     return matriculas
 
 
-def build_powerbi_base(matriculas):
-    """
-    Snapshot mensal por curso, extraído em outro momento/critério do que os
-    dados "ao vivo" da API -> gera divergência de contagem de propósito
-    (o mesmo tipo de problema do Desafio 3).
-    """
+def build_powerbi_base(matriculas, cpfs_validos):
     contagem_real = {}
     for m in matriculas:
-        if m["cpf"].startswith("900"):  # ignora órfãos, powerbi só puxa da base local antiga
+        if m["cpf"] not in cpfs_validos:
             continue
         chave = m["curso_id"]
         contagem_real.setdefault(chave, {"inscritos": 0, "concluidos": 0})
@@ -219,9 +204,6 @@ def build_powerbi_base(matriculas):
     linhas = []
     for curso_id, curso_nome, _ in CURSOS:
         real = contagem_real.get(curso_id, {"inscritos": 0, "concluidos": 0})
-        # defasagem propositalmente diferente por curso: extração mais antiga
-        # (perdeu matrículas recentes) e contagem de concluídos que não bate
-        # com o critério de status usado na API.
         defasagem_inscritos = random.randint(-8, 3)
         defasagem_concluidos = random.randint(-5, 5)
         linhas.append({
@@ -241,7 +223,8 @@ def main():
     linhas_participantes = inject_incompletos(linhas_participantes, n=20)
 
     matriculas = build_matriculas(participantes, n_orfaos=25)
-    powerbi_base = build_powerbi_base(matriculas)
+    cpfs_validos = {p["cpf"] for p in participantes}
+    powerbi_base = build_powerbi_base(matriculas, cpfs_validos)
 
     with open(f"{OUT_DIR}/participantes.csv", "w", newline="", encoding="utf-8") as f:
         campos = ["id_participante", "cpf", "nome", "email", "data_nascimento",
@@ -263,7 +246,7 @@ def main():
     print(f"participantes.csv: {len(linhas_participantes)} linhas "
           f"({len(participantes)} pessoas únicas + duplicatas injetadas)")
     print(f"api_matriculas.json: {len(matriculas)} registros "
-          f"(incluindo 25 órfãos sem participante correspondente)")
+          f"(incluindo {25} órfãos sem participante correspondente)")
     print(f"powerbi_base.csv: {len(powerbi_base)} linhas (1 por curso)")
 
 

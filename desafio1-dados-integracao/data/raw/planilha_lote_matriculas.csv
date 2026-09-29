@@ -1,0 +1,85 @@
+cpf,nome,email,data_nascimento,orgao_lotacao,cargo,data_admissao,curso_id,curso_nome,data_inicio_desejada
+000.061.000-27,Leonardo Pereira Nascimento,,,,,,C04,Introdução ao Processo Judicial Eletrônico,2026-09-15
+000.050.025-43,Elaine Santos Araújo,elaine.santos.araujo@edepe.sp.gov.br,1985-01-01,Unidade de Atendimento - Santos,Defensor Público,2022-03-01,C04,Introdução ao Processo Judicial Eletrônico,2026-09-14
+000.000.064-83,HENRIQUE CARVALHO CAMPOS,outro.henrique.carvalho.campos@edepe.sp.gov.br,,,,,C05,Ética e Conduta no Serviço Público,2026-09-29
+000.062.001-43,Henrique Santos Oliveira,henrique.santos.oliveira@edepe.sp.gov.br,1990-05-05,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2023-01-01,C03,Atendimento ao Público e Direitos Humanos,2026-09-18
+000.000.107-64,Sérgio Ribeiro Fernandes,sergio.ribeiro.fernandes@edepe.sp.gov.br,,,,,C01,Onboarding Institucional EDEPE,2026-09-29
+000.060.002-19,Marina Martins Araújo,marina.martins.araujo@edepe.sp.gov.br,,,,,C99,Curso Descontinuado,2026-10-13
+000.050.024-69,Daniel Santos Rocha,daniel.santos.rocha@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Analista de Sistemas,2022-03-01,C04,Introdução ao Processo Judicial Eletrônico,2026-09-06
+000.000.056-81,Ernesto Santos Fernandes,ernesto.santos.fernandes@edepe.sp.gov.br,,,,,C03,Atendimento ao Público e Direitos Humanos,2026-10-22
+000.000.067-62,Natália Lima Correia,natalia.lima.correia@edepe.sp.gov.br,,,,,C02,LGPD Aplicada ao Serviço Público,2026-09-13
+000.000.015-92,Felipe Campos Freitas,felipe.campos.freitas@edepe.sp.gov.br,,,,,C05,Ética e Conduta no Serviço Público,2026-10-05
+000.050.039-33,Elaine Silva Martins,elaine.silva.martins@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2022-03-01,C05,Ética e Conduta no Serviço Público,2026-09-12
+000.050.036-65,Ana Santos Pereira,ana.santos.pereira@edepe.sp.gov.br,1985-01-01,Unidade de Atendimento - Santos,Assistente Jurídico,2022-03-01,C07,Segurança da Informação Básica,2026-09-02
+000.050.021-24,Gabriela Martins Costa,gabriela.martins.costa@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Defensor Público,2022-03-01,C03,Atendimento ao Público e Direitos Humanos,2026-09-01
+000.050.029-13,Patrícia Fernandes Silva,patricia.fernandes.silva@edepe.sp.gov.br,1985-01-01,Núcleo de Cidadania e Direitos Humanos,Técnico Administrativo,2022-03-01,C07,Segurança da Informação Básica,2026-09-17
+000.000.095-85,Helena Rodrigues Oliveira,helena.rodrigues.oliveira@edepe.sp.gov.br,,,,,C01,Onboarding Institucional EDEPE,2026-10-06
+000.000.017-75,DIEGO ALMEIDA PEREIRA,outro.diego.almeida.pereira@edepe.sp.gov.br,,,,,C03,Atendimento ao Público e Direitos Humanos,2026-10-10
+000.050.031-53,Henrique Rocha Rodrigues,henrique.rocha.rodrigues@edepe.sp.gov.br,,,,,C05,Ética e Conduta no Serviço Público,2026-10-17
+000.000.004-79,HELENA TEIXEIRA BARBOSA,outro.helena.teixeira.barbosa@edepe.sp.gov.br,,,,,C07,Segurança da Informação Básica,2026-10-28
+000.050.037-74,Isabela Rodrigues Lima,isabela.rodrigues.lima@edepe.sp.gov.br,1985-01-01,Núcleo de Cidadania e Direitos Humanos,Analista de Sistemas,2022-03-01,C02,LGPD Aplicada ao Serviço Público,2026-10-05
+000.050.004-83,Nelson Pereira Santos,nelson.pereira.santos@edepe.sp.gov.br,1985-01-01,Unidade de Atendimento - Santos,Defensor Público,2022-03-01,C03,Atendimento ao Público e Direitos Humanos,2026-10-08
+000.050.023-91,Gabriela Carvalho Pereira,gabriela.carvalho.pereira@edepe.sp.gov.br,1985-01-01,Núcleo de Cidadania e Direitos Humanos,Analista de Sistemas,2022-03-01,C03,Atendimento ao Público e Direitos Humanos,2026-10-01
+000.062.002-61,Elaine Gomes Nascimento,,1990-05-05,Assessoria de Tecnologia da Informação,Analista de Sistemas,2023-01-01,C02,LGPD Aplicada ao Serviço Público,2026-09-06
+000.050.007-20,Henrique Costa Almeida,henrique.costa.almeida@edepe.sp.gov.br,1985-01-01,Núcleo de Cidadania e Direitos Humanos,Técnico Administrativo,2022-03-01,C05,Ética e Conduta no Serviço Público,2026-10-27
+000.000.010-68,GABRIELA CARVALHO NASCIMENTO,outro.gabriela.carvalho.nascimento@edepe.sp.gov.br,,,,,C01,Onboarding Institucional EDEPE,2026-09-29
+000.000.140-54,Ingrid Alves Rocha,ingrid.alves.rocha@edepe.sp.gov.br,,,,,C04,Introdução ao Processo Judicial Eletrônico,2026-10-21
+000.050.009-63,Karina Pereira Rocha,karina.pereira.rocha@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Analista de Sistemas,2022-03-01,C01,Onboarding Institucional EDEPE,2026-09-22
+000.000.137-68,Larissa Rocha Almeida,larissa.rocha.almeida@edepe.sp.gov.br,,,,,C06,Acessibilidade Digital,2026-10-04
+000.050.038-55,Nelson Pereira Souza,nelson.pereira.souza@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Assistente Jurídico,2022-03-01,C04,Introdução ao Processo Judicial Eletrônico,2026-10-05
+000.061.001-72,Diego Santos Carvalho,,,,,,C02,LGPD Aplicada ao Serviço Público,2026-10-13
+000.050.026-98,Rafael Fernandes Pereira,rafael.fernandes.pereira@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Analista de Sistemas,2022-03-01,C05,Ética e Conduta no Serviço Público,2026-10-12
+000.000.146-60,Yasmin Cardoso Barbosa,yasmin.cardoso.barbosa@edepe.sp.gov.br,,,,,C07,Segurança da Informação Básica,2026-09-07
+000.050.031-53,Henrique Rocha Rodrigues,henrique.rocha.rodrigues@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Defensor Público,2022-03-01,C02,LGPD Aplicada ao Serviço Público,2026-10-01
+000.050.027-31,Carla Nascimento Fernandes,carla.nascimento.fernandes@edepe.sp.gov.br,1985-01-01,Unidade de Atendimento - Santos,Analista de Sistemas,2022-03-01,C03,Atendimento ao Público e Direitos Humanos,2026-10-11
+000.050.006-50,Gabriela Rocha Gomes,gabriela.rocha.gomes@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Analista de Sistemas,2022-03-01,C04,Introdução ao Processo Judicial Eletrônico,2026-09-20
+000.050.027-31,CARLA NASCIMENTO FERNANDES,outro.carla.nascimento.fernandes@edepe.sp.gov.br,,,,,C07,Segurança da Informação Básica,2026-09-07
+000.062.000-52,Camila Silva Carvalho,camila.silva.carvalho@edepe.sp.gov.br,1990-05-05,Núcleo de Cidadania e Direitos Humanos,Defensor Público,2023-01-01,C05,Ética e Conduta no Serviço Público,2026-09-08
+000.060.000-81,Patrícia Almeida Nascimento,patricia.almeida.nascimento@edepe.sp.gov.br,,,,,C99,Curso Descontinuado,2026-10-28
+000.050.019-97,RAFAEL SOUZA MARTINS,outro.rafael.souza.martins@edepe.sp.gov.br,,,,,C05,Ética e Conduta no Serviço Público,2026-10-09
+000.050.038-55,Nelson Pereira Souza,nelson.pereira.souza@edepe.sp.gov.br,,,,,C04,Introdução ao Processo Judicial Eletrônico,2026-10-15
+000.050.035-94,Otávio Pereira Rocha,otavio.pereira.rocha@edepe.sp.gov.br,1985-01-01,Unidade de Atendimento - Santos,Assistente Jurídico,2022-03-01,C03,Atendimento ao Público e Direitos Humanos,2026-09-02
+000.000.067-62,NATÁLIA LIMA CORREIA,outro.natalia.lima.correia@edepe.sp.gov.br,,,,,C03,Atendimento ao Público e Direitos Humanos,2026-09-03
+000.050.025-43,Elaine Santos Araújo,elaine.santos.araujo@edepe.sp.gov.br,,,,,C05,Ética e Conduta no Serviço Público,2026-10-06
+000.050.000-93,Karina Pereira Carvalho,karina.pereira.carvalho@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Defensor Público,2022-03-01,C01,Onboarding Institucional EDEPE,2026-09-24
+000.050.002-17,Henrique Oliveira Gomes,henrique.oliveira.gomes@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2022-03-01,C07,Segurança da Informação Básica,2026-10-11
+000.060.003-37,Henrique Gomes Oliveira,henrique.gomes.oliveira@edepe.sp.gov.br,,,,,C99,Curso Descontinuado,2026-10-13
+000.061.003-50,Nelson Rodrigues Fernandes,,,,,,C01,Onboarding Institucional EDEPE,2026-10-17
+000.050.022-56,Thiago Pereira Santos,thiago.pereira.santos@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Defensor Público,2022-03-01,C05,Ética e Conduta no Serviço Público,2026-10-26
+000.050.017-72,Henrique Almeida Silva,henrique.almeida.silva@edepe.sp.gov.br,1985-01-01,Unidade de Atendimento - Santos,Analista de Sistemas,2022-03-01,C07,Segurança da Informação Básica,2026-09-19
+000.000.080-40,Elaine Barbosa Lima,elaine.barbosa.lima@edepe.sp.gov.br,,,,,C06,Acessibilidade Digital,2026-09-18
+000.061.002-75,Henrique Costa Gomes,,,,,,C04,Introdução ao Processo Judicial Eletrônico,2026-09-22
+000.050.032-94,William Fernandes Oliveira,william.fernandes.oliveira@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Assistente Jurídico,2022-03-01,C01,Onboarding Institucional EDEPE,2026-10-01
+000.062.001-43,Henrique Santos Oliveira,,1990-05-05,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2023-01-01,C03,Atendimento ao Público e Direitos Humanos,2026-09-18
+000.050.018-78,Ana Pereira Gomes,ana.pereira.gomes@edepe.sp.gov.br,1985-01-01,Núcleo de Cidadania e Direitos Humanos,Assistente Jurídico,2022-03-01,C03,Atendimento ao Público e Direitos Humanos,2026-10-15
+000.050.013-88,Otávio Fernandes Costa,otavio.fernandes.costa@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Defensor Público,2022-03-01,C01,Onboarding Institucional EDEPE,2026-09-14
+000.000.051-16,Natália Rocha Nascimento,natalia.rocha.nascimento@edepe.sp.gov.br,,,,,C05,Ética e Conduta no Serviço Público,2026-09-04
+000.000.129-95,Giovanna Araújo Araújo,giovanna.araujo.araujo@edepe.sp.gov.br,,,,,C05,Ética e Conduta no Serviço Público,2026-10-03
+000.061.004-80,Leonardo Silva Araújo,,,,,,C04,Introdução ao Processo Judicial Eletrônico,2026-09-29
+000.000.132-76,Giovanna Souza Rodrigues,giovanna.souza.rodrigues@edepe.sp.gov.br,,,,,C02,LGPD Aplicada ao Serviço Público,2026-10-01
+000.050.019-97,Rafael Souza Martins,rafael.souza.martins@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Técnico Administrativo,2022-03-01,C07,Segurança da Informação Básica,2026-09-26
+000.000.050-36,Sabrina Lima Cardoso,sabrina.lima.cardoso@edepe.sp.gov.br,,,,,C07,Segurança da Informação Básica,2026-09-13
+000.050.012-46,Camila Lima Martins,camila.lima.martins@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Analista de Sistemas,2022-03-01,C06,Acessibilidade Digital,2026-09-02
+000.062.003-64,Isabela Souza Costa,,1990-05-05,Núcleo de Cidadania e Direitos Humanos,Defensor Público,2023-01-01,C01,Onboarding Institucional EDEPE,2026-10-11
+000.050.003-16,William Souza Carvalho,william.souza.carvalho@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2022-03-01,C02,LGPD Aplicada ao Serviço Público,2026-09-19
+000.062.002-61,Elaine Gomes Nascimento,elaine.gomes.nascimento@edepe.sp.gov.br,1990-05-05,Assessoria de Tecnologia da Informação,Analista de Sistemas,2023-01-01,C02,LGPD Aplicada ao Serviço Público,2026-09-06
+000.050.020-91,Marina Santos Rocha,marina.santos.rocha@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2022-03-01,C04,Introdução ao Processo Judicial Eletrônico,2026-09-05
+000.050.014-60,João Pereira Almeida,joao.pereira.almeida@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Defensor Público,2022-03-01,C04,Introdução ao Processo Judicial Eletrônico,2026-09-11
+000.050.030-54,Gabriela Fernandes Martins,gabriela.fernandes.martins@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2022-03-01,C03,Atendimento ao Público e Direitos Humanos,2026-09-07
+000.060.001-63,Gabriela Martins Pereira,gabriela.martins.pereira@edepe.sp.gov.br,,,,,C99,Curso Descontinuado,2026-09-08
+000.050.005-22,Thiago Rodrigues Fernandes,thiago.rodrigues.fernandes@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Defensor Público,2022-03-01,C05,Ética e Conduta no Serviço Público,2026-10-10
+000.050.016-39,Nelson Fernandes Carvalho,nelson.fernandes.carvalho@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2022-03-01,C02,LGPD Aplicada ao Serviço Público,2026-09-10
+000.050.034-31,Diego Oliveira Costa,diego.oliveira.costa@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Assistente Jurídico,2022-03-01,C02,LGPD Aplicada ao Serviço Público,2026-10-08
+000.000.104-62,FÁBIO ALMEIDA PINTO,outro.fabio.almeida.pinto@edepe.sp.gov.br,,,,,C05,Ética e Conduta no Serviço Público,2026-09-02
+000.060.004-92,João Santos Pereira,joao.santos.pereira@edepe.sp.gov.br,,,,,C99,Curso Descontinuado,2026-10-13
+000.000.045-40,Ernesto Barbosa Araújo,ernesto.barbosa.araujo@edepe.sp.gov.br,,,,,C01,Onboarding Institucional EDEPE,2026-09-21
+000.050.001-14,Thiago Souza Rodrigues,thiago.souza.rodrigues@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Técnico Administrativo,2022-03-01,C01,Onboarding Institucional EDEPE,2026-09-05
+000.050.016-39,Nelson Fernandes Carvalho,nelson.fernandes.carvalho@edepe.sp.gov.br,,,,,C02,LGPD Aplicada ao Serviço Público,2026-10-03
+000.050.015-27,Otávio Carvalho Nascimento,otavio.carvalho.nascimento@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Analista de Sistemas,2022-03-01,C07,Segurança da Informação Básica,2026-10-16
+000.062.003-64,Isabela Souza Costa,isabela.souza.costa@edepe.sp.gov.br,1990-05-05,Núcleo de Cidadania e Direitos Humanos,Defensor Público,2023-01-01,C01,Onboarding Institucional EDEPE,2026-10-11
+000.050.008-87,Karina Martins Lima,karina.martins.lima@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Técnico Administrativo,2022-03-01,C01,Onboarding Institucional EDEPE,2026-09-11
+000.050.028-61,Henrique Rodrigues Almeida,henrique.rodrigues.almeida@edepe.sp.gov.br,1985-01-01,Unidade de Atendimento - Santos,Assistente Jurídico,2022-03-01,C06,Acessibilidade Digital,2026-10-04
+000.062.000-52,Camila Silva Carvalho,,1990-05-05,Núcleo de Cidadania e Direitos Humanos,Defensor Público,2023-01-01,C05,Ética e Conduta no Serviço Público,2026-09-08
+000.050.010-84,Camila Fernandes Rocha,camila.fernandes.rocha@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Defensor Público,2022-03-01,C07,Segurança da Informação Básica,2026-10-24
+000.050.033-21,Fábio Gomes Araújo,fabio.gomes.araujo@edepe.sp.gov.br,1985-01-01,Assessoria de Tecnologia da Informação,Técnico Administrativo,2022-03-01,C07,Segurança da Informação Básica,2026-09-26
+000.050.011-99,Carla Nascimento Rocha,carla.nascimento.rocha@edepe.sp.gov.br,1985-01-01,Núcleo Especializado de Infância e Juventude,Defensor Público,2022-03-01,C06,Acessibilidade Digital,2026-10-17
