@@ -283,17 +283,7 @@ def slide_trajetoria(c):
     frame(c)
     y = header(c, "Antes do case", "Icaro Albar — Coordenador de Inovação e Inteligência Artificial", 1)
 
-    # avatar circle with initials
-    c.setFillColor(ACCENT)
-    c.circle(MARGIN + 28, y + 6, 26, fill=1, stroke=0)
-    c.setFillColor(ON_ACCENT)
-    c.setFont("Helvetica-Bold", 16)
-    c.drawCentredString(MARGIN + 28, y - 1, "IA")
-    c.setFont("Helvetica", 9)
-    c.setFillColor(MUTED)
-    c.drawString(MARGIN + 66, y + 2, "Niterói, RJ — Brasil")
-
-    y -= 46
+    y -= 14
     col_w = (W - 2 * MARGIN - 24) / 2
     left_x = MARGIN
     right_x = MARGIN + col_w + 24
