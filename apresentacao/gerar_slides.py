@@ -20,18 +20,43 @@ W, H = landscape(A4)
 MARGIN = 1.6 * 72 / 2.54  # ~1.6cm em pontos... simplificado abaixo
 MARGIN = 42
 
-INK = colors.HexColor("#16211E")
-MUTED = colors.HexColor("#5B6B66")
-ACCENT = colors.HexColor("#1F5C55")
-ACCENT_SOFT = colors.HexColor("#DCE8E5")
-LINE = colors.HexColor("#D8DAD3")
+# badges (pill) ficam com cor fixa, sempre escuras o bastante pra texto branco,
+# independente do tema — não são "texto sobre a página", são selo sólido.
 OK = colors.HexColor("#2F7D4F")
 WARN = colors.HexColor("#A9720A")
 BAD = colors.HexColor("#B5432E")
-SURFACE2 = colors.HexColor("#F4F6F2")
-TERM_BG = colors.HexColor("#121A1C")
-TERM_FG = colors.HexColor("#E7EDE9")
-TERM_ACCENT = colors.HexColor("#7FD9C9")
+
+PALETTES = {
+    "light": dict(
+        BG="#FFFFFF", INK="#16211E", MUTED="#5B6B66", ACCENT="#1F5C55",
+        ACCENT_SOFT="#DCE8E5", LINE="#D8DAD3", ON_ACCENT="#FFFFFF",
+        SURFACE2="#F4F6F2", CHIP_BG="#FFFFFF",
+        TERM_BG="#121A1C", TERM_FG="#E7EDE9", TERM_ACCENT="#7FD9C9",
+    ),
+    "dark": dict(
+        BG="#10171A", INK="#E8EEEB", MUTED="#93A29C", ACCENT="#6CC4B5",
+        ACCENT_SOFT="#1E3A37", LINE="#2A3336", ON_ACCENT="#0F1618",
+        SURFACE2="#1C2628", CHIP_BG="#1C2628",
+        TERM_BG="#0A1012", TERM_FG="#E7EDE9", TERM_ACCENT="#7FD9C9",
+    ),
+}
+
+
+def set_theme(name):
+    """Troca a paleta global de cores antes de gerar as páginas."""
+    global BG, INK, MUTED, ACCENT, ACCENT_SOFT, LINE, ON_ACCENT
+    global SURFACE2, CHIP_BG, TERM_BG, TERM_FG, TERM_ACCENT
+    p = PALETTES[name]
+    BG = colors.HexColor(p["BG"]); INK = colors.HexColor(p["INK"])
+    MUTED = colors.HexColor(p["MUTED"]); ACCENT = colors.HexColor(p["ACCENT"])
+    ACCENT_SOFT = colors.HexColor(p["ACCENT_SOFT"]); LINE = colors.HexColor(p["LINE"])
+    ON_ACCENT = colors.HexColor(p["ON_ACCENT"])
+    SURFACE2 = colors.HexColor(p["SURFACE2"]); CHIP_BG = colors.HexColor(p["CHIP_BG"])
+    TERM_BG = colors.HexColor(p["TERM_BG"]); TERM_FG = colors.HexColor(p["TERM_FG"])
+    TERM_ACCENT = colors.HexColor(p["TERM_ACCENT"])
+
+
+set_theme("light")
 
 TOTAL_SLIDES = 9
 
@@ -53,7 +78,7 @@ def wrap(text, font, size, max_width):
 
 
 def frame(c):
-    c.setFillColor(colors.white)
+    c.setFillColor(BG)
     c.rect(0, 0, W, H, fill=1, stroke=0)
     c.setStrokeColor(LINE)
     c.setLineWidth(1)
@@ -176,7 +201,7 @@ def chip_row(c, chips, x, y, size=8):
         if cx + w > W - MARGIN - 20:
             cx = x
             y -= 18
-        c.setFillColor(colors.white)
+        c.setFillColor(CHIP_BG)
         c.setStrokeColor(LINE)
         c.roundRect(cx, y - 10, w, 15, 3, fill=1, stroke=1)
         c.setFillColor(MUTED)
@@ -260,7 +285,7 @@ def slide_trajetoria(c):
     # avatar circle with initials
     c.setFillColor(ACCENT)
     c.circle(MARGIN + 28, y + 6, 26, fill=1, stroke=0)
-    c.setFillColor(colors.white)
+    c.setFillColor(ON_ACCENT)
     c.setFont("Helvetica-Bold", 16)
     c.drawCentredString(MARGIN + 28, y - 1, "IA")
     c.setFont("Helvetica", 9)
@@ -551,16 +576,24 @@ def slide_d3_achado(c):
     footer(c)
 
 
-def main():
-    out_path = "case_tecnico_edepe.pdf"
+SLIDES = [slide_trajetoria, slide_abertura, slide_d1_diagnostico, slide_d1_demo,
+          slide_d2_requisito, slide_d2_demo, slide_d2_processo,
+          slide_d3_metodo, slide_d3_achado]
+
+
+def build(theme, out_path):
+    set_theme(theme)
     c = canvas.Canvas(out_path, pagesize=landscape(A4))
-    for fn in [slide_trajetoria, slide_abertura, slide_d1_diagnostico, slide_d1_demo,
-               slide_d2_requisito, slide_d2_demo, slide_d2_processo,
-               slide_d3_metodo, slide_d3_achado]:
+    for fn in SLIDES:
         fn(c)
         c.showPage()
     c.save()
     print(f"gerado: {out_path}")
+
+
+def main():
+    build("light", "case_tecnico_edepe.pdf")
+    build("dark", "case_tecnico_edepe_dark.pdf")
 
 
 if __name__ == "__main__":
